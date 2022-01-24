@@ -12,7 +12,7 @@ function onSearchLoad() {
 
     const urlParams = new URLSearchParams(window.location.search);
     if (!urlParams.has('query') || urlParams.get('query') == '') {
-        window.location.href = '/'
+        window.location.href = 'index.html'
         return;
     }
 

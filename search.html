@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Search bukkit plugins</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="onSearchLoad()">
+    <nav>
+        <form method="GET" action="/search.html" >
+            <input type="search" id="searchinput" name="query" autocomplete="false" required>
+            <input type="submit" value="🔍 Search">
+            <span>WARNING - this is highly jank and will probably most likely break often.</span>
+        </form>
+    </nav>
+    <div id="results">
+        <span>Search will not work without javascript enabled!</span>
+    </div>
+</body>
+<template>
+    <div class="result">
+        <h2>Name</h2>
+        <p>Description</p>
+        <p>links</p>
+    </div>
+</template>
+</html>

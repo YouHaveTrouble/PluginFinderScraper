@@ -27,7 +27,7 @@ function onSearchLoad() {
     let promises = []
     messageResults("Searching... This might take a few seconds...")
     promises.push(getSpigetPlugins(query))
-    promises.push(getCurseforgePlugins(query))
+    //promises.push(getCurseforgePlugins(query))
     
 
     Promise.all(promises).then(() => {

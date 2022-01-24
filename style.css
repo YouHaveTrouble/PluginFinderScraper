@@ -49,7 +49,7 @@ nav input {
 }
 
 .result {
-    width: 100%;
+    width: calc(100% - 10rem);
     padding-left: 10rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
